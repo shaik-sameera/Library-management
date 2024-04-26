@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.menu_bar{
+    background-color: #c1901d;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.logo{
+    color: #fff
+    font-size: 30px;
+}
+.menu_bar ul{
+    list-style: none;
+    display: flex;
+}
+.menu_bar ul li{
+    padding: 10px 30px;
+    position: relative;
+}
+.menu_bar ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+
+    transition: all 0.3s;
+}
+.menu_bar ul li a:hover{
+    color: var(--color-primary);
+}
+.dropdown_menu{
+    display: none;
+}
+
+
+.menu_bar ul li:hover .dropdown_menu{
+display: block;
+position: absolute;
+left: 0;
+top: 100%;
+background-color:  #c1901d;
+
+}
+
+.menu_bar ul li:hover .dropdown_menu ul{
+    display: block;
+    margin: 10px;
+}
+
+.menu_bar ul li:hover .dropdown_menu ul li{
+    width: 150px;
+    padding: 10px;
+}
+.fas{
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+.dropdown_menu-1{
+    display: none;
+}
+
+.dropdown_menu ul li:hover .dropdown_menu-1{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    background-color: #c1901d;
+
+}
+.dropdown_menu-11{
+    display: none;
+}
+
+.dropdown_menu-1 ul li:hover .dropdown_menu-11{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    background-color: #c1901d;
+
+}
+.img{
+    height: calc(100vh - 80px);
+    background-image: url(./bgg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.search-bar{
+    float: right;
+    margin-right: 20px;
+    align-content: center;
+}
+input[type=text]{
+    padding: 6px;
+    margin-top: 16px;
+    font-size: 17px;
+    border: none;
+
+}
+button{
+    align-content: center;
+    text-align: center;
+    float: right;
+    padding: 6px 10px;
+    margin-top: 16px;
+    margin-right: 16px;
+    background: #c1901d;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+

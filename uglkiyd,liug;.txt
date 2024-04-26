@@ -1,0 +1,24 @@
+{
+        path:'flowers',
+        component:TypeComponent
+      },
+      {
+        path:'flowers',
+        component:ColorComponent
+      },
+      {
+        path:'flowers',
+        component:PriceComponent
+      }
+<select matNativeControl required>
+    <option value="occasion">Flowers</option>
+    <option value="type">Type</option>
+    <option value="color">Color</option>
+    <option value="price">Price</option>
+  </select>
+
+
+
+
+
+"src/styles.css",

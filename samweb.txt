@@ -1,0 +1,10 @@
+<!--<h1> {{title}} </h1>
+<section>
+<a routerLink="home"> Home</a>
+<a routerLink="flowers"> Flowers</a>
+<a routerLink="plants"> Plants</a>
+<a routerLink="callus"> Callus</a>
+<a routerLink="login"> Login</a>
+<a routerLink="logout"> Logout</a>
+</section>
+<router-outlet></router-outlet>-->

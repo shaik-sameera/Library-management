@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Degital Library</title>
+   <link rel="stylesheet" href="project.css">
+</head>
+<body>
+ <nav>
+   <div class="logo">
+    <p>NEC Library</p>
+   </div>
+         <ul>
+            <li><a  href="login_Registration.html" target="_self">Login / Registration</a></li>
+            <li><a  href="p1.html" target="_self">Admin Login</a></li>
+         </ul>
+</nav>
+      <div class="content-items">
+        <img src="bgg.jpg">
+      </div>
+       <!--FEATURES-->
+       <section id="feature"> 
+        <div class="title-text">
+            <p>FEATURES</p>
+            <H1>Why Choose Us</H1>
+        </div>
+        <div class="feature-box">
+            <div class="features">
+                <h1>Multiple Access</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa fa-shield"></i>
+                    </div>
+                        <div class="feature-text">
+                            <p>In traditional libraries there is a restriction in using the same resource by multiple people simultaneously.<br>
+                            But in Digital Library there is no such restrictions,several individuals and institutions can access the same resource at the same time.</p>
+                        </div>
+              </div>
+              <h1>Easy-To-Access</h1>
+              <div class="features-desc">
+                  <div class="feature-icon">
+                      <i class=" fa fa-check-square"></i>
+                  </div>
+                      <div class="feature-text">
+                          <p>Digital Libraries more comfortable to use as comapare to physical libraries.All you have to do is search for the title or the author, and you'll get your book in no time.
+                      </div>
+            </div>
+            <h1>No Physical Restrictions</h1>
+            <div class="features-desc">
+                <div class="feature-icon">
+                    <i class="fa fa-times-circle"></i>
+                </div>
+                    <div class="feature-text">
+                        <p>There is no physical restrictions in the case of Digital Libraries.One can access it from anywhere,even from the comfort of their homes.</p>
+                    </div>
+          </div>
+            </div>
+            <div class="features-img">
+                <img src="b.jpg">
+            </div>
+            >
+        </div>
+     </section>
+     
+      <!--content-->
+      <section id="content">
+        <div class="title-text">
+            <p>CONTENT</p>
+            <H1>we Provide Better For You</H1>
+        </div> 
+        <div class="content-box">
+             <div class="single-content">
+                <img src="school.jpg" height="100%" width="100%">
+                <div class="overlay"></div>
+                <div class="content-desc">
+                    <h3>Academic</h3>
+                    <hr>
+                    <p>Digital Library can provide your academic notes,syllabus,and previous years papers etc</p>
+                </div>
+             </div>
+             <div class="single-content">
+                <img src="gradu.jpg" width="100%">
+                <div class="overlay"></div>
+                <div class="content-desc">
+                    <h3>Higher Education</h3>
+                    <hr>
+                     <p>Digital Library provide gudence for your higher education</p>
+                </div>
+             </div>
+             <div class="single-content">
+                <img src="ex.jpg"  width="100%">
+                <div class="overlay"></div>
+                <div class="content-desc">
+                    <h3>Exam Preparation</h3>
+                    <hr>
+                    <p>Digital Library helps in preparation of your competative & academic exams.
+                </div>
+             </div>
+             <div class="single-content">
+                <img src="history.jpg"  width="100%">
+                <div class="overlay"></div>
+                <div class="content-desc">
+                    <h3>History</h3>
+                    <hr>
+                    <p>Digital Library provide valuable information of our history.</p>
+                </div>
+             </div>  
+        </div>
+
+      </section>
+      
+
+
+
+
+
+
+
+    <script>
+
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+
+
+        menuBtn.onclick =function(){   
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+            }
+            else{
+                sideNav.style.right = "-250px";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
